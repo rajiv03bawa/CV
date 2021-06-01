@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+background-color: rgb(250, 250, 250);
+font-family: 'Roboto Condensed', sans-serif;
+letter-spacing: 0.1rem;
+
+}
+.logo{
+height: 1.5rem;
+width:1.5rem;
+background-color: rgb(241, 172, 22);
+border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+    
+}
+.header-left, .header-right{
+    display: flex;  
+    /* align-items: baseline;  */
+}
+ul>li{
+    list-style: none;
+    margin-top: 0.45rem;
+    margin-right: 0.5rem; 
+    padding-right: 0.5rem;
+}
+.navlinks{
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid rgb(148, 146, 146);
+    padding-right:0.5rem;
+    
+}
+.navlinks:hover,#current{
+    color:rgb(236, 180, 24);
+}
+.logo,p{
+    margin: 0.25rem;
+}
+.header-left>p{
+padding-top: 0.2rem;
+}
+main{
+    height: 75vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: auto 2.5rem;
+}
+.profile-img, .sub-div{
+    margin: 1rem;
+    height: 25rem;
+    width: 25rem;
+}
+.profile-img{
+    border-radius: 50%;
+}
+
+.section-1{
+height: 70%;
+padding: 0.5rem;
+box-sizing: border-box;
+
+}
+.section-1>h1{
+    font-size: 6.5rem;
+}
+.section-1>p:nth-of-type(1){
+font-size: 1.5rem;
+margin: 1rem auto;
+}
+.section-1>p:nth-of-type(2){
+    margin: 0.04rem auto;
+    }
+.section-2{
+    height: 30%;
+    box-sizing: border-box;
+    display: flex;
+}
+.content{
+    font-size:1.5rem;
+    width: calc(25rem/3);
+    border: 1px solid grey;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0.4rem;
+}
+#content-1{
+    background-color: orange;
+    
+}
+#content-1>a{
+    text-decoration: none;
+    color: black;
+}
+#content-2{
+    background-color:red;
+    
+}
+#content-2>a{
+    text-decoration: none;
+    color: black;
+}
+#content-3{
+    background-color:cyan;
+    
+}
+#content-3>a{
+    text-decoration: none;
+    color: black;
+}
+#content-1:hover, #content-2:hover, #content-3:hover{
+    background-color:rgb(224, 224, 224);
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 2rem 0rem 2rem 0rem;
+    
+}
+
+
+
+
